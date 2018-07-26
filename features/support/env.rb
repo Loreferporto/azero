@@ -1,7 +1,7 @@
 require 'capybara'
 require 'capybara/cucumber'
 require 'site_prism'
-require 'poltergeist'
+require 'capybara/poltergeist'
 
 @brower = ENV['BROWER']
 if @browser.eql?('phantomjs')
